@@ -29,8 +29,13 @@ app.listen(4000,()=>{
     console.log(chalk.blue('Listening to port 4000'));
 }) 
 
+app.use(express.static("public"));
+
 require('./handlers/authentication/signup')(app);
 require('./handlers/authentication/login')(app);
 require('./handlers/user/users')(app);
 require('./handlers/cards/card')(app);
 
+app.get("*", (req, res) => {
+   res.sendFile(`${__dirname}/public/index.html`);
+});
