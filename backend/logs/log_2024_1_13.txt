@@ -1,0 +1,336 @@
+Time: 1/13/2024, 8:18:55 AM
+Method: POST
+Route: /users
+Status: 500
+Duration: 256ms
+
+Time: 1/13/2024, 8:24:00 AM
+Method: POST
+Route: /users
+Status: 200
+Duration: 134ms
+
+Time: 1/13/2024, 9:18:45 AM
+Method: POST
+Route: /users
+Status: 200
+Duration: 135ms
+
+Time: 1/13/2024, 9:19:15 AM
+Method: POST
+Route: /users
+Status: 200
+Duration: 139ms
+
+Time: 1/13/2024, 9:19:36 AM
+Method: POST
+Route: /users
+Status: 200
+Duration: 134ms
+
+Time: 1/13/2024, 9:20:55 AM
+Method: POST
+Route: /users
+Status: 200
+Duration: 137ms
+
+Time: 1/13/2024, 9:38:08 AM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 152ms
+
+Time: 1/13/2024, 9:39:06 AM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 38ms
+
+Time: 1/13/2024, 9:39:15 AM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 16ms
+
+Time: 1/13/2024, 9:39:17 AM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 23ms
+
+Time: 1/13/2024, 9:41:11 AM
+Method: PUT
+Route: /cards/65a23e25be61448186037dd9
+Status: 200
+Duration: 14ms
+
+Time: 1/13/2024, 9:43:17 AM
+Method: PUT
+Route: /cards/65a173b29dd7acb84f96baa1
+Status: 500
+Duration: 30ms
+
+Time: 1/13/2024, 9:44:26 AM
+Method: PUT
+Route: /cards/65a173b29dd7acb84f96baa1
+Status: 500
+Duration: 82ms
+
+Time: 1/13/2024, 9:44:33 AM
+Method: PUT
+Route: /cards/65a23e25be61448186037dd9
+Status: 200
+Duration: 20ms
+
+Time: 1/13/2024, 9:45:10 AM
+Method: PUT
+Route: /cards/65a23e25be61448186037dd9
+Status: 400
+Duration: 53ms
+
+Time: 1/13/2024, 9:45:18 AM
+Method: PUT
+Route: /cards/65a23e25be61448186037dd9
+Status: 400
+Duration: 9ms
+
+Time: 1/13/2024, 9:45:32 AM
+Method: PUT
+Route: /cards/65a23e25be61448186037dd9
+Status: 200
+Duration: 26ms
+
+Time: 1/13/2024, 9:45:39 AM
+Method: PUT
+Route: /cards/65a23e25be61448186037dd9
+Status: 200
+Duration: 15ms
+
+Time: 1/13/2024, 9:46:05 AM
+Method: PUT
+Route: /cards/65a23e23be61448186037dd5
+Status: 500
+Duration: 14ms
+
+Time: 1/13/2024, 9:46:19 AM
+Method: PUT
+Route: /cards/65a23e23be61448186037dd5
+Status: 200
+Duration: 12ms
+
+Time: 1/13/2024, 9:46:31 AM
+Method: PUT
+Route: /cards/65a23e23be61448186037dd5
+Status: 500
+Duration: 13ms
+
+Time: 1/13/2024, 9:46:38 AM
+Method: PUT
+Route: /cards/65a23e23be61448186037dd5
+Status: 200
+Duration: 12ms
+
+Time: 1/13/2024, 9:47:12 AM
+Method: PUT
+Route: /cards/65a173b29dd7acb84f96baa1
+Status: 200
+Duration: 12ms
+
+Time: 1/13/2024, 9:48:39 AM
+Method: PUT
+Route: /cards/65a173b29dd7acb84f96baa1
+Status: 401
+Duration: 56ms
+
+Time: 1/13/2024, 9:48:53 AM
+Method: PUT
+Route: /cards/65a23e23be61448186037dd5
+Status: 500
+Duration: 32ms
+
+Time: 1/13/2024, 9:48:58 AM
+Method: PUT
+Route: /cards/65a23e23be61448186037dd5
+Status: 200
+Duration: 17ms
+
+Time: 1/13/2024, 9:49:24 AM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 80ms
+
+Time: 1/13/2024, 9:49:30 AM
+Method: PUT
+Route: /cards/65a23e23be61448186037dd5
+Status: 401
+Duration: 8ms
+
+Time: 1/13/2024, 9:53:17 AM
+Method: PUT
+Route: /cards/65a23e23be61448186037dd5
+Status: 200
+Duration: 66ms
+
+Time: 1/13/2024, 9:53:35 AM
+Method: PUT
+Route: /cards/65a23e23be61448186037dd9
+Status: 401
+Duration: 43ms
+
+Time: 1/13/2024, 9:53:46 AM
+Method: PUT
+Route: /cards/65a23e23be61448186037dd1
+Status: 401
+Duration: 6ms
+
+Time: 1/13/2024, 9:54:11 AM
+Method: PUT
+Route: /cards/65a23e23be61448186037dd2
+Status: 401
+Duration: 6ms
+
+Time: 1/13/2024, 9:55:34 AM
+Method: PUT
+Route: /cards/65a23e23be61448186037dd5
+Status: 200
+Duration: 67ms
+
+Time: 1/13/2024, 9:55:48 AM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 85ms
+
+Time: 1/13/2024, 9:55:55 AM
+Method: PUT
+Route: /cards/65a23e23be61448186037dd5
+Status: 401
+Duration: 10ms
+
+Time: 1/13/2024, 11:00:01 AM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 121ms
+
+Time: 1/13/2024, 11:00:36 AM
+Method: PATCH
+Route: /cards/65a23e25be61448186037dd9
+Status: 200
+Duration: 28ms
+
+Time: 1/13/2024, 11:02:04 AM
+Method: PATCH
+Route: /cards/65a23e25be61448186037dd9
+Status: 200
+Duration: 118ms
+
+Time: 1/13/2024, 11:02:20 AM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 83ms
+
+Time: 1/13/2024, 11:02:26 AM
+Method: PATCH
+Route: /cards/65a23e25be61448186037dd9
+Status: 200
+Duration: 16ms
+
+Time: 1/13/2024, 11:03:13 AM
+Method: PATCH
+Route: /cards/65a23e25be61448186037dd9
+Status: 401
+Duration: 2ms
+
+Time: 1/13/2024, 11:06:29 AM
+Method: PATCH
+Route: /cards/65a23e25be61448186037dd9
+Status: 400
+Duration: 55ms
+
+Time: 1/13/2024, 11:07:21 AM
+Method: PATCH
+Route: /cards/65a23e25be61448186037dd9
+Status: 200
+Duration: 25ms
+
+Time: 1/13/2024, 11:09:18 AM
+Method: PATCH
+Route: /cards/65a23e25be61448186037dd9
+Status: 400
+Duration: 8ms
+
+Time: 1/13/2024, 11:09:40 AM
+Method: PATCH
+Route: /cards/65a23e25be61448186037dd9
+Status: 200
+Duration: 12ms
+
+Time: 1/13/2024, 11:09:47 AM
+Method: PATCH
+Route: /cards/65a23e25be61448186037dd9
+Status: 401
+Duration: 2ms
+
+Time: 1/13/2024, 11:12:33 AM
+Method: PUT
+Route: /cards/65a23e23be61448186037dd5
+Status: 401
+Duration: 32ms
+
+Time: 1/13/2024, 11:12:40 AM
+Method: PATCH
+Route: /cards/65a23e25be61448186037dd9
+Status: 200
+Duration: 40ms
+
+Time: 1/13/2024, 11:12:48 AM
+Method: PATCH
+Route: /cards/65a23e25be61448186037dd9
+Status: 200
+Duration: 13ms
+
+Time: 1/13/2024, 11:17:51 AM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 167ms
+
+Time: 1/13/2024, 11:17:56 AM
+Method: PATCH
+Route: /cards/65a23e25be61448186037dd9
+Status: 200
+Duration: 29ms
+
+Time: 1/13/2024, 11:18:41 AM
+Method: PATCH
+Route: /cards/65a23e25be61448186037dd9
+Status: 200
+Duration: 105ms
+
+Time: 1/13/2024, 11:18:54 AM
+Method: PATCH
+Route: /cards/65a23e25be61448186037dd9
+Status: 200
+Duration: 29ms
+
+Time: 1/13/2024, 11:19:01 AM
+Method: PATCH
+Route: /cards/65a23e25be61448186037dd9
+Status: 200
+Duration: 11ms
+
+Time: 1/13/2024, 11:19:11 AM
+Method: PATCH
+Route: /cards/65a23e25be61448186037dd9
+Status: 200
+Duration: 12ms
+
+Time: 1/13/2024, 12:00:53 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 125ms
+

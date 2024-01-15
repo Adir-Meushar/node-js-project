@@ -1,0 +1,294 @@
+Time: 1/14/2024, 9:31:05 AM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 126ms
+
+Time: 1/14/2024, 9:31:14 AM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 24ms
+
+Time: 1/14/2024, 9:31:19 AM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 37ms
+
+Time: 1/14/2024, 9:33:20 AM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 15ms
+
+Time: 1/14/2024, 9:33:25 AM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 23ms
+
+Time: 1/14/2024, 9:37:21 AM
+Method: POST
+Route: /users
+Status: 200
+Duration: 83ms
+
+Time: 1/14/2024, 9:38:51 AM
+Method: POST
+Route: /users
+Status: 400
+Duration: 7ms
+
+Time: 1/14/2024, 9:39:10 AM
+Method: POST
+Route: /users
+Status: 400
+Duration: 2ms
+
+Time: 1/14/2024, 9:39:16 AM
+Method: POST
+Route: /users
+Status: 400
+Duration: 2ms
+
+Time: 1/14/2024, 9:43:15 AM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 121ms
+
+Time: 1/14/2024, 9:43:21 AM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 5ms
+
+Time: 1/14/2024, 10:55:48 AM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 87ms
+
+Time: 1/14/2024, 11:09:08 AM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 139ms
+
+Time: 1/14/2024, 11:09:20 AM
+Method: POST
+Route: /cards
+Status: 401
+Duration: 15ms
+
+Time: 1/14/2024, 11:09:44 AM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 46ms
+
+Time: 1/14/2024, 11:14:41 AM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 87ms
+
+Time: 1/14/2024, 11:15:08 AM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 134ms
+
+Time: 1/14/2024, 11:21:24 AM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 135ms
+
+Time: 1/14/2024, 11:26:43 AM
+Method: GET
+Route: /cards/65a239561f87dd202108e7d0
+Status: 404
+Duration: 50ms
+
+Time: 1/14/2024, 11:27:14 AM
+Method: GET
+Route: /cards/65a239561f87dd202108e7d0
+Status: 200
+Duration: 62ms
+
+Time: 1/14/2024, 11:29:10 AM
+Method: GET
+Route: /cards/65a239561f87dd202108e7d0
+Status: 500
+Duration: 64ms
+
+Time: 1/14/2024, 11:30:12 AM
+Method: GET
+Route: /cards/65a239561f87dd202108e7d0
+Status: 500
+Duration: 78ms
+
+Time: 1/14/2024, 11:31:07 AM
+Method: GET
+Route: /cards/65a239561f87dd202108e7d0
+Status: 200
+Duration: 72ms
+
+Time: 1/14/2024, 11:31:56 AM
+Method: GET
+Route: /cards/65a239561f87dd202108e7d0
+Status: 404
+Duration: 32ms
+
+Time: 1/14/2024, 11:33:01 AM
+Method: GET
+Route: /cards/65a239561f87dd202108e7d0
+Status: 404
+Duration: 3ms
+
+Time: 1/14/2024, 11:33:11 AM
+Method: GET
+Route: /cards/my-cards
+Status: 200
+Duration: 42ms
+
+Time: 1/14/2024, 11:35:53 AM
+Method: GET
+Route: /cards/my-cards
+Status: 200
+Duration: 71ms
+
+Time: 1/14/2024, 11:36:11 AM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 20ms
+
+Time: 1/14/2024, 11:36:14 AM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 51ms
+
+Time: 1/14/2024, 11:36:32 AM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 82ms
+
+Time: 1/14/2024, 11:36:55 AM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 18ms
+
+Time: 1/14/2024, 11:37:09 AM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 84ms
+
+Time: 1/14/2024, 11:37:12 AM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 97ms
+
+Time: 1/14/2024, 11:37:17 AM
+Method: GET
+Route: /cards/my-cards
+Status: 200
+Duration: 17ms
+
+Time: 1/14/2024, 6:04:35 PM
+Method: POST
+Route: /jklj
+Status: 404
+Duration: 32ms
+
+Time: 1/14/2024, 6:04:45 PM
+Method: GET
+Route: /jklj
+Status: 404
+Duration: 5ms
+
+Time: 1/14/2024, 6:05:39 PM
+Method: GET
+Route: /jklj
+Status: 404
+Duration: 29ms
+
+Time: 1/14/2024, 6:05:50 PM
+Method: GET
+Route: /users/login
+Status: 401
+Duration: 5ms
+
+Time: 1/14/2024, 6:06:23 PM
+Method: POST
+Route: /users
+Status: 400
+Duration: 26ms
+
+Time: 1/14/2024, 6:06:32 PM
+Method: POST
+Route: /users
+Status: 200
+Duration: 109ms
+
+Time: 1/14/2024, 6:06:44 PM
+Method: GET
+Route: /users/login
+Status: 401
+Duration: 2ms
+
+Time: 1/14/2024, 6:07:05 PM
+Method: GET
+Route: /users/login
+Status: 401
+Duration: 30ms
+
+Time: 1/14/2024, 6:07:12 PM
+Method: GET
+Route: /users/login
+Status: 401
+Duration: 1ms
+
+Time: 1/14/2024, 6:07:22 PM
+Method: GET
+Route: /users/login
+Status: 401
+Duration: 30ms
+
+Time: 1/14/2024, 6:08:34 PM
+Method: GET
+Route: /users/login
+Status: 401
+Duration: 30ms
+
+Time: 1/14/2024, 6:09:12 PM
+Method: GET
+Route: /users/login
+Status: 401
+Duration: 2ms
+
+Time: 1/14/2024, 6:10:15 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 115ms
+
+Time: 1/14/2024, 6:11:18 PM
+Method: POST
+Route: /a
+Status: 404
+Duration: 3ms
+
+Time: 1/14/2024, 6:11:24 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 82ms
+

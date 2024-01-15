@@ -1,0 +1,900 @@
+Request: #1
+Time: 1/11/2024, 9:58:20 AM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 129ms
+
+Request: #2
+Time: 1/11/2024, 9:58:29 AM
+Method: GET
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 23ms
+
+Request: #3
+Time: 1/11/2024, 9:58:50 AM
+Method: PUT
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 112ms
+
+Request: #1
+Time: 1/11/2024, 9:59:48 AM
+Method: GET
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 51ms
+
+Request: #2
+Time: 1/11/2024, 9:59:54 AM
+Method: PUT
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 102ms
+
+Request: #3
+Time: 1/11/2024, 10:00:10 AM
+Method: GET
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 11ms
+
+Request: #4
+Time: 1/11/2024, 10:00:39 AM
+Method: PUT
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 400
+Duration: 4ms
+
+Request: #5
+Time: 1/11/2024, 10:00:43 AM
+Method: PUT
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 118ms
+
+Request: #6
+Time: 1/11/2024, 10:00:49 AM
+Method: PUT
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 84ms
+
+Request: #7
+Time: 1/11/2024, 10:01:23 AM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 79ms
+
+Request: #8
+Time: 1/11/2024, 10:01:38 AM
+Method: GET
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 401
+Duration: 5ms
+
+Request: #9
+Time: 1/11/2024, 10:01:45 AM
+Method: GET
+Route: /users/659ea3c5557d69b2035a3b26
+Status: 200
+Duration: 7ms
+
+Request: #10
+Time: 1/11/2024, 10:01:55 AM
+Method: PUT
+Route: /users/659ea3c5557d69b2035a3b26
+Status: 401
+Duration: 2ms
+
+Request: #11
+Time: 1/11/2024, 10:02:43 AM
+Method: PUT
+Route: /users/659ea3c5557d69b2035a3b26
+Status: 200
+Duration: 82ms
+
+Request: #12
+Time: 1/11/2024, 10:03:22 AM
+Method: PATCH
+Route: /users/659ea3c5557d69b2035a3b26
+Status: 200
+Duration: 17ms
+
+Request: #13
+Time: 1/11/2024, 10:03:31 AM
+Method: PUT
+Route: /users/659ea3c5557d69b2035a3b26
+Status: 200
+Duration: 83ms
+
+Request: #1
+Time: 1/11/2024, 10:04:08 AM
+Method: PATCH
+Route: /users/659ea3c5557d69b2035a3b26
+Status: 200
+Duration: 79ms
+
+Request: #2
+Time: 1/11/2024, 10:04:14 AM
+Method: PUT
+Route: /users/659ea3c5557d69b2035a3b26
+Status: 200
+Duration: 91ms
+
+Time: 1/11/2024, 10:08:34 AM
+Method: PUT
+Route: /users/659ea3c5557d69b2035a3b26
+Status: 200
+Duration: 142ms
+
+Time: 1/11/2024, 10:16:43 AM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 123ms
+
+Time: 1/11/2024, 10:17:11 AM
+Method: DELETE
+Route: /users/659d420ce869b74b8510e592
+Status: 200
+Duration: 23ms
+
+Time: 1/11/2024, 10:17:49 AM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 110ms
+
+Time: 1/11/2024, 10:18:09 AM
+Method: DELETE
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 401
+Duration: 4ms
+
+Time: 1/11/2024, 10:26:54 AM
+Method: POST
+Route: /users
+Status: 200
+Duration: 102ms
+
+Time: 1/11/2024, 10:30:30 AM
+Method: POST
+Route: /users
+Status: 200
+Duration: 136ms
+
+Time: 1/11/2024, 10:35:32 AM
+Method: POST
+Route: /users
+Status: 200
+Duration: 133ms
+
+Time: 1/11/2024, 10:37:19 AM
+Method: POST
+Route: /users
+Status: 200
+Duration: 136ms
+
+Time: 1/11/2024, 10:38:33 AM
+Method: POST
+Route: /users
+Status: 200
+Duration: 132ms
+
+Time: 1/11/2024, 10:39:55 AM
+Method: POST
+Route: /users
+Status: 200
+Duration: 134ms
+
+Time: 1/11/2024, 10:41:11 AM
+Method: POST
+Route: /users
+Status: 200
+Duration: 133ms
+
+Time: 1/11/2024, 10:42:18 AM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 81ms
+
+Time: 1/11/2024, 10:42:38 AM
+Method: GET
+Route: /users/659fa9a7c94391b53427bde7
+Status: 200
+Duration: 12ms
+
+Time: 1/11/2024, 10:43:08 AM
+Method: PATCH
+Route: /users/659fa9a7c94391b53427bde7
+Status: 200
+Duration: 11ms
+
+Time: 1/11/2024, 10:43:13 AM
+Method: PATCH
+Route: /users/659fa9a7c94391b53427bde7
+Status: 200
+Duration: 8ms
+
+Time: 1/11/2024, 10:43:48 AM
+Method: PUT
+Route: /users/659fa9a7c94391b53427bde7
+Status: 401
+Duration: 1ms
+
+Time: 1/11/2024, 10:44:04 AM
+Method: PUT
+Route: /users/659fa9a7c94391b53427bde7
+Status: 200
+Duration: 82ms
+
+Time: 1/11/2024, 10:45:43 AM
+Method: POST
+Route: /users
+Status: 200
+Duration: 96ms
+
+Time: 1/11/2024, 10:46:39 AM
+Method: POST
+Route: /users
+Status: 400
+Duration: 4ms
+
+Time: 1/11/2024, 10:46:50 AM
+Method: POST
+Route: /users
+Status: 200
+Duration: 81ms
+
+Time: 1/11/2024, 10:51:03 AM
+Method: POST
+Route: /users
+Status: 500
+Duration: 127ms
+
+Time: 1/11/2024, 10:51:35 AM
+Method: POST
+Route: /users
+Status: 500
+Duration: 80ms
+
+Time: 1/11/2024, 10:53:26 AM
+Method: POST
+Route: /users
+Status: 200
+Duration: 133ms
+
+Time: 1/11/2024, 10:54:25 AM
+Method: POST
+Route: /users
+Status: 500
+Duration: 128ms
+
+Time: 1/11/2024, 11:43:32 AM
+Method: POST
+Route: /cards
+Status: 404
+Duration: 36ms
+
+Time: 1/11/2024, 11:52:04 AM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 50ms
+
+Time: 1/11/2024, 12:09:48 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 49ms
+
+Time: 1/11/2024, 12:10:25 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 48ms
+
+Time: 1/11/2024, 12:13:37 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 50ms
+
+Time: 1/11/2024, 12:13:43 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 6ms
+
+Time: 1/11/2024, 12:14:36 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 10ms
+
+Time: 1/11/2024, 12:20:19 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 32ms
+
+Time: 1/11/2024, 12:20:32 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 4ms
+
+Time: 1/11/2024, 12:20:41 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 2ms
+
+Time: 1/11/2024, 12:21:09 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 48ms
+
+Time: 1/11/2024, 12:21:27 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 31ms
+
+Time: 1/11/2024, 12:22:30 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 32ms
+
+Time: 1/11/2024, 12:22:40 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 3ms
+
+Time: 1/11/2024, 12:22:59 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 3ms
+
+Time: 1/11/2024, 12:23:03 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 2ms
+
+Time: 1/11/2024, 12:23:12 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 3ms
+
+Time: 1/11/2024, 12:23:23 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 3ms
+
+Time: 1/11/2024, 12:24:04 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 45ms
+
+Time: 1/11/2024, 12:24:14 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 8ms
+
+Time: 1/11/2024, 12:24:37 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 23ms
+
+Time: 1/11/2024, 12:25:53 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 60ms
+
+Time: 1/11/2024, 12:28:59 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 10ms
+
+Time: 1/11/2024, 12:31:11 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 32ms
+
+Time: 1/11/2024, 12:31:19 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 5ms
+
+Time: 1/11/2024, 12:32:41 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 34ms
+
+Time: 1/11/2024, 12:32:56 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 2ms
+
+Time: 1/11/2024, 12:33:13 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 34ms
+
+Time: 1/11/2024, 12:33:18 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 31ms
+
+Time: 1/11/2024, 12:36:49 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 34ms
+
+Time: 1/11/2024, 12:37:12 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 3ms
+
+Time: 1/11/2024, 12:40:58 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 31ms
+
+Time: 1/11/2024, 12:41:01 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 17ms
+
+Time: 1/11/2024, 12:43:11 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 2ms
+
+Time: 1/11/2024, 12:43:35 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 34ms
+
+Time: 1/11/2024, 12:43:45 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 34ms
+
+Time: 1/11/2024, 12:43:58 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 7ms
+
+Time: 1/11/2024, 12:44:02 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 2ms
+
+Time: 1/11/2024, 12:44:11 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 2ms
+
+Time: 1/11/2024, 12:44:46 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 2ms
+
+Time: 1/11/2024, 12:44:51 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 4ms
+
+Time: 1/11/2024, 12:48:00 PM
+Method: POST
+Route: /users
+Status: 400
+Duration: 2ms
+
+Time: 1/11/2024, 12:48:05 PM
+Method: POST
+Route: /users
+Status: 200
+Duration: 82ms
+
+Time: 1/11/2024, 12:50:07 PM
+Method: POST
+Route: /users
+Status: 400
+Duration: 31ms
+
+Time: 1/11/2024, 12:50:13 PM
+Method: POST
+Route: /users
+Status: 400
+Duration: 17ms
+
+Time: 1/11/2024, 12:50:20 PM
+Method: POST
+Route: /users
+Status: 400
+Duration: 3ms
+
+Time: 1/11/2024, 12:50:24 PM
+Method: POST
+Route: /users
+Status: 400
+Duration: 3ms
+
+Time: 1/11/2024, 12:50:27 PM
+Method: POST
+Route: /users
+Status: 200
+Duration: 94ms
+
+Time: 1/11/2024, 12:50:32 PM
+Method: POST
+Route: /users
+Status: 400
+Duration: 3ms
+
+Time: 1/11/2024, 12:52:03 PM
+Method: POST
+Route: /users
+Status: 400
+Duration: 31ms
+
+Time: 1/11/2024, 12:52:07 PM
+Method: POST
+Route: /users
+Status: 200
+Duration: 106ms
+
+Time: 1/11/2024, 12:52:55 PM
+Method: POST
+Route: /users
+Status: 400
+Duration: 46ms
+
+Time: 1/11/2024, 12:53:08 PM
+Method: POST
+Route: /users
+Status: 200
+Duration: 95ms
+
+Time: 1/11/2024, 12:53:14 PM
+Method: POST
+Route: /users
+Status: 200
+Duration: 84ms
+
+Time: 1/11/2024, 1:46:49 PM
+Method: POST
+Route: /users
+Status: 200
+Duration: 131ms
+
+Time: 1/11/2024, 1:46:57 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 18ms
+
+Time: 1/11/2024, 1:47:02 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 12ms
+
+Time: 1/11/2024, 1:48:09 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 63ms
+
+Time: 1/11/2024, 1:49:37 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 45ms
+
+Time: 1/11/2024, 1:49:43 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 26ms
+
+Time: 1/11/2024, 1:51:18 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 49ms
+
+Time: 1/11/2024, 1:51:23 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 23ms
+
+Time: 1/11/2024, 1:54:44 PM
+Method: POST
+Route: /cards
+Status: 401
+Duration: 28ms
+
+Time: 1/11/2024, 2:08:08 PM
+Method: POST
+Route: /cards
+Status: 401
+Duration: 29ms
+
+Time: 1/11/2024, 2:08:43 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 91ms
+
+Time: 1/11/2024, 2:09:30 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 28ms
+
+Time: 1/11/2024, 2:09:53 PM
+Method: POST
+Route: /cards
+Status: 401
+Duration: 3ms
+
+Time: 1/11/2024, 2:09:57 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 9ms
+
+Time: 1/11/2024, 2:12:12 PM
+Method: POST
+Route: /users
+Status: 400
+Duration: 45ms
+
+Time: 1/11/2024, 2:12:22 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 18ms
+
+Time: 1/11/2024, 2:12:29 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 33ms
+
+Time: 1/11/2024, 2:12:40 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 78ms
+
+Time: 1/11/2024, 2:12:48 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 8ms
+
+Time: 1/11/2024, 2:12:53 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 13ms
+
+Time: 1/11/2024, 2:15:01 PM
+Method: POST
+Route: /cards
+Status: 401
+Duration: 45ms
+
+Time: 1/11/2024, 2:15:39 PM
+Method: POST
+Route: /cards
+Status: 401
+Duration: 7ms
+
+Time: 1/11/2024, 2:16:11 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 29ms
+
+Time: 1/11/2024, 2:20:22 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 53ms
+
+Time: 1/11/2024, 2:20:26 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 27ms
+
+Time: 1/11/2024, 2:21:55 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 38ms
+
+Time: 1/11/2024, 2:23:41 PM
+Method: POST
+Route: /cards
+Status: 401
+Duration: 5ms
+
+Time: 1/11/2024, 2:24:13 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 8ms
+
+Time: 1/11/2024, 2:24:18 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 13ms
+
+Time: 1/11/2024, 2:26:33 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 115ms
+
+Time: 1/11/2024, 2:26:43 PM
+Method: POST
+Route: /cards
+Status: 401
+Duration: 8ms
+
+Time: 1/11/2024, 2:26:53 PM
+Method: PATCH
+Route: /users/659fa9a7c94391b53427bde7
+Status: 401
+Duration: 3ms
+
+Time: 1/11/2024, 2:27:17 PM
+Method: PATCH
+Route: /users/659faafac94391b53427bdf7
+Status: 200
+Duration: 20ms
+
+Time: 1/11/2024, 2:27:24 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 12ms
+
+Time: 1/11/2024, 2:27:28 PM
+Method: POST
+Route: /cards
+Status: 200
+Duration: 24ms
+
+Time: 1/11/2024, 2:30:23 PM
+Method: GET
+Route: /cards
+Status: 200
+Duration: 45ms
+
+Time: 1/11/2024, 2:33:50 PM
+Method: GET
+Route: /cards/
+Status: 200
+Duration: 44ms
+
+Time: 1/11/2024, 2:34:23 PM
+Method: GET
+Route: /cards/659fdd63df4c0f6d2a4eca79
+Status: 200
+Duration: 9ms
+
+Time: 1/11/2024, 2:34:36 PM
+Method: GET
+Route: /cards/659fdd63df4c0f6d2a4eca78
+Status: 200
+Duration: 3ms
+
+Time: 1/11/2024, 2:35:48 PM
+Method: GET
+Route: /cards/659fdd63df4c0f6d2a4eca78
+Status: 404
+Duration: 38ms
+
+Time: 1/11/2024, 2:35:53 PM
+Method: GET
+Route: /cards/659fdd63df4c0f6d2a4eca79
+Status: 200
+Duration: 12ms
+
+Time: 1/11/2024, 3:40:08 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 36ms
+
+Time: 1/11/2024, 3:40:16 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 91ms
+
+Time: 1/11/2024, 3:40:48 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 2ms
+
+Time: 1/11/2024, 3:40:52 PM
+Method: GET
+Route: /users
+Status: 200
+Duration: 15ms
+
+Time: 1/11/2024, 3:41:21 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 77ms
+
+Time: 1/11/2024, 3:41:28 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 6ms
+
+Time: 1/11/2024, 3:42:28 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 46ms
+
+Time: 1/11/2024, 3:42:38 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 82ms
+
+Time: 1/11/2024, 3:42:43 PM
+Method: GET
+Route: /users
+Status: 200
+Duration: 29ms
+

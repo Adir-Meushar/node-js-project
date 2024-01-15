@@ -1,0 +1,48 @@
+Time: 1/6/2024, 2:02:22 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 22ms
+
+Time: 1/6/2024, 2:02:42 PM
+Method: POST
+Route: /users/login
+Status: 400
+Duration: 48ms
+
+Time: 1/6/2024, 2:02:55 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 78ms
+
+Time: 2024_1_6
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 127ms
+
+Time: 6-1-2024
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 130ms
+
+Time: 1/6/2024, 2:08:21 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 139ms
+
+Time: 1/6/2024, 02:11:25 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 116ms
+
+Time: 1/6/2024, 2:12:32 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 121ms
+

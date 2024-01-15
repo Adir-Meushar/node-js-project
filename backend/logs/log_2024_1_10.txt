@@ -1,0 +1,477 @@
+
+Request: #1
+Time: 1/10/2024, 4:50:55 PM
+Method: POST
+Route: /users
+Status: 400
+Duration: 70ms
+
+Request: #2
+Time: 1/10/2024, 4:50:56 PM
+Method: POST
+Route: /users
+Status: 400
+Duration: 11ms
+
+Request: #3
+Time: 1/10/2024, 4:51:00 PM
+Method: POST
+Route: /users
+Status: 400
+Duration: 5ms
+
+Request: #4
+Time: 1/10/2024, 4:52:14 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 77ms
+
+Request: #5
+Time: 1/10/2024, 4:52:21 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 4ms
+
+Request: #6
+Time: 1/10/2024, 4:52:24 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 81ms
+
+Request: #7
+Time: 1/10/2024, 4:52:59 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 80ms
+
+Request: #1
+Time: 1/10/2024, 4:57:20 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 124ms
+
+Request: #1
+Time: 1/10/2024, 4:58:07 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 43ms
+
+Request: #1
+Time: 1/10/2024, 5:01:05 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 47ms
+
+Request: #2
+Time: 1/10/2024, 5:01:10 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 9ms
+
+Request: #1
+Time: 1/10/2024, 5:02:20 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 118ms
+
+Request: #2
+Time: 1/10/2024, 5:02:26 PM
+Method: GET
+Route: /users
+Status: 200
+Duration: 18ms
+
+Request: #1
+Time: 1/10/2024, 5:04:59 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 50ms
+
+Request: #1
+Time: 1/10/2024, 5:05:11 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 46ms
+
+Request: #1
+Time: 1/10/2024, 5:05:29 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 50ms
+
+Request: #1
+Time: 1/10/2024, 5:05:40 PM
+Method: GET
+Route: /users
+Status: 200
+Duration: 55ms
+
+Request: #2
+Time: 1/10/2024, 5:06:21 PM
+Method: GET
+Route: /users
+Status: 200
+Duration: 12ms
+
+Request: #3
+Time: 1/10/2024, 5:06:43 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 80ms
+
+Request: #4
+Time: 1/10/2024, 5:06:48 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 5ms
+
+Request: #1
+Time: 1/10/2024, 5:07:35 PM
+Method: GET
+Route: /users
+Status: 200
+Duration: 55ms
+
+Request: #1
+Time: 1/10/2024, 5:07:56 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 52ms
+
+Request: #1
+Time: 1/10/2024, 5:12:23 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 51ms
+
+Request: #2
+Time: 1/10/2024, 5:12:35 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 85ms
+
+Request: #3
+Time: 1/10/2024, 5:12:41 PM
+Method: GET
+Route: /users
+Status: 200
+Duration: 17ms
+
+Request: #4
+Time: 1/10/2024, 5:13:07 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 78ms
+
+Request: #5
+Time: 1/10/2024, 5:13:12 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 5ms
+
+Request: #6
+Time: 1/10/2024, 5:13:34 PM
+Method: GET
+Route: /users
+Status: 200
+Duration: 10ms
+
+Request: #7
+Time: 1/10/2024, 5:13:49 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 8ms
+
+Request: #1
+Time: 1/10/2024, 5:19:43 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 123ms
+
+Request: #2
+Time: 1/10/2024, 5:20:16 PM
+Method: GET
+Route: /users/659ea9138f3fd723a2ac7626
+Status: 200
+Duration: 17ms
+
+Request: #3
+Time: 1/10/2024, 5:20:47 PM
+Method: GET
+Route: /users/659ea3c5557d69b2035a3b26
+Status: 401
+Duration: 7ms
+
+Request: #4
+Time: 1/10/2024, 5:20:57 PM
+Method: GET
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 401
+Duration: 5ms
+
+Request: #5
+Time: 1/10/2024, 5:21:05 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 81ms
+
+Request: #6
+Time: 1/10/2024, 5:21:15 PM
+Method: GET
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 7ms
+
+Request: #7
+Time: 1/10/2024, 5:21:26 PM
+Method: GET
+Route: /users/659ea3c5557d69b2035a3b26
+Status: 200
+Duration: 8ms
+
+Request: #8
+Time: 1/10/2024, 5:21:37 PM
+Method: GET
+Route: /users/659a93788ddd2cb0dc4ed189
+Status: 200
+Duration: 11ms
+
+Request: #1
+Time: 1/10/2024, 5:22:02 PM
+Method: GET
+Route: /users/659a93788ddd2cb0dc4ed189
+Status: 200
+Duration: 56ms
+
+Request: #1
+Time: 1/10/2024, 5:23:48 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 121ms
+
+Request: #2
+Time: 1/10/2024, 5:23:55 PM
+Method: PATCH
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 24ms
+
+Request: #3
+Time: 1/10/2024, 5:23:58 PM
+Method: PATCH
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 12ms
+
+Request: #4
+Time: 1/10/2024, 5:25:30 PM
+Method: PUT
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 89ms
+
+Request: #5
+Time: 1/10/2024, 5:25:36 PM
+Method: PUT
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 86ms
+
+Request: #6
+Time: 1/10/2024, 5:25:44 PM
+Method: PUT
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 400
+Duration: 5ms
+
+Request: #7
+Time: 1/10/2024, 5:25:48 PM
+Method: PUT
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 400
+Duration: 2ms
+
+Request: #8
+Time: 1/10/2024, 5:26:48 PM
+Method: PUT
+Route: /users/659d6b143ab40be4c36dafb8
+Status: 401
+Duration: 3ms
+
+Request: #9
+Time: 1/10/2024, 5:26:55 PM
+Method: PUT
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 83ms
+
+Request: #10
+Time: 1/10/2024, 5:27:12 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 96ms
+
+Request: #11
+Time: 1/10/2024, 5:27:25 PM
+Method: DELETE
+Route: /users/659d6b5b3ab40be4c36dafbd
+Status: 401
+Duration: 7ms
+
+Request: #12
+Time: 1/10/2024, 5:27:30 PM
+Method: DELETE
+Route: /users/659ea9138f3fd723a2ac7626
+Status: 200
+Duration: 12ms
+
+Request: #1
+Time: 1/10/2024, 5:29:09 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 123ms
+
+Request: #2
+Time: 1/10/2024, 5:29:20 PM
+Method: DELETE
+Route: /users/659ea9138f3fd723a2ac7626
+Status: 401
+Duration: 14ms
+
+Request: #3
+Time: 1/10/2024, 5:29:50 PM
+Method: DELETE
+Route: /users/659ea3c5557d69b2035a3b26
+Status: 401
+Duration: 7ms
+
+Request: #4
+Time: 1/10/2024, 5:29:59 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 78ms
+
+Request: #5
+Time: 1/10/2024, 5:30:06 PM
+Method: DELETE
+Route: /users/659ea3c5557d69b2035a3b26
+Status: 401
+Duration: 5ms
+
+Request: #1
+Time: 1/10/2024, 5:31:30 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 122ms
+
+Request: #2
+Time: 1/10/2024, 5:31:49 PM
+Method: GET
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 18ms
+
+Request: #3
+Time: 1/10/2024, 5:33:52 PM
+Method: GET
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 12ms
+
+Request: #4
+Time: 1/10/2024, 5:34:49 PM
+Method: PATCH
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 20ms
+
+Request: #5
+Time: 1/10/2024, 5:35:33 PM
+Method: PUT
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 94ms
+
+Request: #1
+Time: 1/10/2024, 5:41:53 PM
+Method: PUT
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 145ms
+
+Request: #2
+Time: 1/10/2024, 5:42:10 PM
+Method: PUT
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 92ms
+
+Request: #1
+Time: 1/10/2024, 7:12:46 PM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 120ms
+
+Request: #2
+Time: 1/10/2024, 7:13:05 PM
+Method: PUT
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 106ms
+
+Request: #3
+Time: 1/10/2024, 7:13:28 PM
+Method: PUT
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 88ms
+
+Request: #1
+Time: 1/10/2024, 7:14:41 PM
+Method: PUT
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 143ms
+
+Request: #2
+Time: 1/10/2024, 7:15:17 PM
+Method: PUT
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 89ms
+
+Request: #1
+Time: 1/10/2024, 7:16:03 PM
+Method: PUT
+Route: /users/659d6b143ab40be4c36dafb7
+Status: 200
+Duration: 145ms
+
