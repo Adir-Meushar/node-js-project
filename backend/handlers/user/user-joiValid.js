@@ -43,6 +43,7 @@ const userValidationSchema = Joi.object({
       'string.max': 'Street must not exceed {#limit} characters',
     }),
     houseNumber: Joi.number().positive(),
+    zip: Joi.number().positive(),
   }),
   img: Joi.object({
     url: Joi.string(),
@@ -52,4 +53,16 @@ const userValidationSchema = Joi.object({
   isAdmin: Joi.boolean().default(false),
 });
 
+const loginSchema = Joi.object({
+  email: Joi.string().email().required().messages({
+    'string.email': 'Invalid email format',
+    'any.required': 'Email is required',
+  }),
+  password: Joi.string().required().pattern(/^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@%$#^&*\-_*]).{8,32}$/).messages({
+    'string.pattern.base': 'Password must contain at least one digit, one lowercase and one uppercase letter, and one special character',
+    'any.required': 'Password is required',
+  }),
+});
+
 module.exports = userValidationSchema;
+module.exports = loginSchema;

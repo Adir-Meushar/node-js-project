@@ -1,0 +1,328 @@
+Time: 1/17/2024, 8:58:08 AM
+Method: POST
+Route: /users/login
+Status: 200
+Duration: 140ms
+
+Time: 1/17/2024, 9:01:19 AM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 5ms
+
+Time: 1/17/2024, 9:01:51 AM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 4ms
+
+Time: 1/17/2024, 9:05:51 AM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 5ms
+
+Time: 1/17/2024, 12:59:23 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 174ms
+Time: 1/17/2024, 12:59:57 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 39ms
+Time: 1/17/2024, 1:01:51 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 39ms
+
+Time: 1/17/2024, 1:02:09 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 5ms
+
+Time: 1/17/2024, 1:04:40 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 41ms
+
+Error Msg: Unauthorized
+
+Time: 1/17/2024, 1:05:08 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 39ms
+
+Error Msg: Unauthorized
+Time: 1/17/2024, 1:05:30 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 40ms
+
+Error Msg: UnauthorizedTime: 1/17/2024, 1:05:41 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 40ms
+
+Error Msg: Unauthorized
+
+Time: 1/17/2024, 1:06:22 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 4ms
+
+Error Msg: Unauthorized
+
+Time: 1/17/2024, 1:06:59 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 8ms
+
+Error Msg: Bad Request
+
+Time: 1/17/2024, 1:07:08 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 6ms
+
+Error Msg: Bad Request
+
+Time: 1/17/2024, 1:07:43 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 53ms
+
+Error Msg: Bad Request
+
+Time: 1/17/2024, 1:08:04 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 54ms
+
+Error Msg: Bad Request
+
+Time: 1/17/2024, 1:08:41 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 46ms
+
+Error Msg: Bad Request
+
+Time: 1/17/2024, 1:08:51 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 74ms
+Error Msg: Bad Request
+
+Time: 1/17/2024, 1:08:59 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 11ms
+Error Msg: Bad Request
+
+Time: 1/17/2024, 1:09:23 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 50ms
+Error Msg: Bad Request
+
+Time: 1/17/2024, 1:09:43 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 7ms
+Error Msg: Unauthorized
+
+Time: 1/17/2024, 1:09:51 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 5ms
+Error Msg: Unauthorized
+
+Time: 1/17/2024, 1:10:14 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 4ms
+Error Msg: Unauthorized
+
+Time: 1/17/2024, 1:11:28 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 37ms
+
+Error Msg: Unauthorized
+Time: 1/17/2024, 1:12:39 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 9ms
+Error Msg: Unauthorized
+Time: 1/17/2024, 1:12:49 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 6ms
+Error Msg: Unauthorized
+Time: 1/17/2024, 1:12:52 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 4ms
+Error Msg: Unauthorized
+Time: 1/17/2024, 1:13:06 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 80ms
+
+Error Msg: Unauthorized
+Time: 1/17/2024, 1:13:10 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 5ms
+
+Error Msg: Unauthorized
+Time: 1/17/2024, 1:13:34 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 39ms
+Error Msg: Unauthorized
+Time: 1/17/2024, 1:13:41 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 5ms
+Error Msg: Unauthorized
+Time: 1/17/2024, 1:14:07 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 41ms
+Error Msg: Unauthorized
+
+Time: 1/17/2024, 1:14:12 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 5ms
+Error Msg: Unauthorized
+
+Time: 1/17/2024, 1:14:15 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 4ms
+Error Msg: Unauthorized
+
+Time: 1/17/2024, 1:14:21 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 6ms
+Error Msg: Unauthorized
+
+Time: 1/17/2024, 1:14:53 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 7ms
+Error Msg: Unauthorized
+
+Time: 1/17/2024, 1:15:46 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 39ms
+Error Msg: Unauthorized
+
+Time: 1/17/2024, 1:19:38 PM
+Method: GET
+Route: /users/65a665b2f4fdaae05d182d60
+Status: 401
+Duration: 4ms
+Error Msg: Unauthorized
+
+Time: 1/17/2024, 1:20:38 PM
+Method: GET
+Route: /users/65a665b2f4fdaae05d182d60
+Status: 401
+Duration: 2ms
+Error Msg: Unauthorized
+
+Time: 1/17/2024, 1:20:58 PM
+Method: GET
+Route: /users/65a6830db856b1efdc65a665b2f4fdaae05d182d60139f1
+Status: 403
+Duration: 6ms
+Error Msg: Forbidden
+
+Time: 1/17/2024, 1:22:00 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 3ms
+Error Msg: Unauthorized
+
+Time: 1/17/2024, 1:28:36 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 15ms
+Error Msg: Bad Request
+
+Time: 1/17/2024, 1:29:51 PM
+Method: DELETE
+Route: /users/65a7b9e9301f7438748f0bec
+Status: 401
+Duration: 2ms
+Error Msg: Unauthorized
+
+Time: 1/17/2024, 1:30:40 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 5ms
+Error Msg: Unauthorized
+
+Time: 1/17/2024, 1:38:17 PM
+Method: PUT
+Route: /cards/65a692fc828fc7da136891b1
+Status: 401
+Duration: 3ms
+Error Msg: Unauthorized
+
+Time: 1/17/2024, 1:39:51 PM
+Method: PUT
+Route: /cards/65a3ab0ecfd55874320453d1
+Status: 401
+Duration: 6ms
+Error Msg: Unauthorized
+
+Time: 1/17/2024, 1:40:03 PM
+Method: PUT
+Route: /cards/65a6844df207abc62fa20618
+Status: 500
+Duration: 41ms
+Error Msg: Internal Server Error
+

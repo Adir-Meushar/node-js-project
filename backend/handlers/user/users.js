@@ -1,17 +1,14 @@
-const bcrypt = require('bcrypt');
-const { getLoggedUserId } = require("../../config");
+const { getUserInfo } = require("../../config");
 const guard = require("../../guard");
 const userValidationSchema = require("./user-joiValid");
 const { User } = require("./user-model");
+const jwt=require('jsonwebtoken');
 
 module.exports = (app) => {
     //Get all users-Admin//
     app.get('/users', guard, async (req, res) => {
-      const userId = getLoggedUserId(req, res); //get userId from jwt
-      const currentUser = await User.findById(userId);
-   
-      
-      if (!currentUser.isAdmin) {
+      const userToken = getUserInfo(req, res); //get details from token//
+      if (!userToken.isAdmin) {
           return res.status(401).send('User is not authorized');
       }
 
@@ -21,18 +18,17 @@ module.exports = (app) => {
 
     //Get current user-Admin&current user//
       app.get('/users/:id',guard,async(req,res)=>{
-        const userId=getLoggedUserId(req,res);
-        const currentUser=await User.findById(userId);
-
-        if(userId!==req.params.id&&!currentUser.isAdmin){
+        const userToken=getUserInfo(req,res);
+      
+        if(userToken.userId!==req.params.id&&!userToken.isAdmin){
             return res.status(401).send('User not authorized');
         }
         try{
-            const user=await User.findById(req.params.id).select('-password');
-            if(!user){
+            const currentUser=await User.findById(req.params.id).select('-password');
+            if(!currentUser){
                 return res.status(403).send('User not found');
             }
-            res.send(user);
+            res.send(currentUser);
         }
         catch(err){
             return res.status(403).send('User not found');
@@ -41,14 +37,16 @@ module.exports = (app) => {
 
       //User-Patch-current user// 
       app.patch('/users/:id',guard,async(req,res)=>{
-        const userId=getLoggedUserId(req,res);
-        if(userId!==req.params.id){
+        const userToken=getUserInfo(req,res);
+        if(userToken.userId!==req.params.id){
             return res.status(401).send('User is not authorized');
         }
         try{
             const user=await User.findById(req.params.id);
             user.isBusiness=!user.isBusiness;
            await user.save();
+           const updatedUser = await User.findById(req.params.id);
+           const newToken = jwt.sign({ userId: updatedUser._id, isBusiness: updatedUser.isBusiness,isAdmin:updatedUser.isAdmin}, process.env.JWT_SECRET, { expiresIn: '1h' });
            res.send(user);
         }
         catch(err){
@@ -58,13 +56,12 @@ module.exports = (app) => {
 
      //User-Delete-Admin&current user// 
       app.delete('/users/:id',guard,async(req,res)=>{
-        const userId=getLoggedUserId(req,res);
-        const currentUser=await User.findById(userId);
-        if(userId!==req.params.id&&!currentUser.isAdmin){
+        const userToken=getUserInfo(req,res);
+        if(userToken.userId!==req.params.id&&!userToken.isAdmin){
             return res.status(401).send('User is not authorized');
         }
         try{ 
-            const user=await User.findByIdAndDelete(req.params.id);
+            const currentUser=await User.findByIdAndDelete(req.params.id);
             res.status(200).send('User deleted sucssesfully!');
         }catch(err){
             return res.status(500).send('Somthing went wrong please reload the page');
@@ -73,36 +70,41 @@ module.exports = (app) => {
 
      //User-Edit-current user//
      app.put('/users/:id', guard, async (req, res) => {
-    const userId = getLoggedUserId(req, res);
-    if (userId !== req.params.id) {
-      return res.status(401).send('User is not authorized');
-    }
-    try {
-      const { error, value } = userValidationSchema.validate(req.body, { abortEarly: false });
-      if (error) {
-        return res.status(400).json({ error: error.details.map(detail => detail.message) });
+      const userToken = getUserInfo(req, res);
+      if (userToken.userId !== req.params.id) {
+        return res.status(401).send('User is not authorized');
       }
-  
-      const user = await User.findById(req.params.id);
-      if (!user) {
-        return res.status(401).send('User not found..');
+      
+      try {
+        const { error, value } = userValidationSchema.validate(req.body, { abortEarly: false });
+        if (error) {
+          return res.status(400).json({ error: error.details.map(detail => detail.message) });
+        }
+    
+        // Check if the email already exists for a different user
+        const existingUser = await User.findOne({ email: value.email, _id: { $ne: req.params.id } });
+        if (existingUser) {
+          return res.status(400).send('Email is already in use by another user.');
+        }
+    
+        const user = await User.findById(req.params.id);
+    
+        if (!user) {
+          return res.status(401).send('User not found.');
+        }
+    
+        // Update user properties 
+        value.isAdmin = user.isAdmin;
+        value.isBusiness = user.isBusiness;
+        user.set(value);
+    
+        const newUser = await user.save();
+    
+        res.status(200).send(newUser);
+    
+      } catch (err) {
+        return res.status(500).send('Something went wrong. Please reload the page.');
       }
-      if (value.password) {
-        const hashedPassword = await bcrypt.hash(value.password, 10);
-        value.password = hashedPassword;
-      }
-
-      //overriding the default usermodel;
-      value.isAdmin=user.isAdmin;
-      value.isBusiness=user.isBusiness;
-      user.set(value);
-  
-      const newUser = await user.save();
-
-      res.status(200).send(newUser);
-
-    } catch(err){
-      return res.status(500).send('Something went wrong. Please reload the page.');
-    }
-  });
+    });
+    
 }

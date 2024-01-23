@@ -2,15 +2,10 @@ const fs = require('fs');
 const moment = require('moment');
 const chalk = require('chalk');
 
-// let requestCount = 0;
-
 module.exports = (req, res, next) => {
   const startTime = Date.now();
   const fileName = `./logs/log_${moment().format("Y_M_D")}.txt`;
   const localTime = new Date().toLocaleString('en-US', { timeZone: 'Asia/Jerusalem' });
-
-  // requestCount++;
-
   // Store the original end function to call it later
   const originalEnd = res.end;
 
@@ -24,13 +19,12 @@ module.exports = (req, res, next) => {
     const duration = endTime - startTime;
 
     let content = ''; 
-    // content += `Request: #${requestCount}\n`;
     content += `Time: ${localTime}\n`;
     content += `Method: ${req.method}\n`;
     content += `Route: ${req.url}\n`;
     content += `Status: ${res.statusCode}\n`;
-    content += `Duration: ${duration}ms\n\n`;
-
+    content += `Duration: ${duration}ms\n`;
+   
     if (res.statusCode === 200) {
       console.log(chalk.green(content));
     } else if (String(res.statusCode).startsWith('4')) {
@@ -38,15 +32,17 @@ module.exports = (req, res, next) => {
     } else {
       console.log(content);
     }
-
-    fs.appendFile(fileName, content, (err) => {
-      if (err) {
-        console.error(chalk.red(`Error writing to log file: ${err.message}`));
-      } else {
-        console.log(chalk.green(`Log entry added to ${fileName}`));
-      }
-    });
-  };
-
+    if (res.statusCode >= 400) {
+      content += `Error Msg: ${res.statusMessage}\n\n`;
+      fs.appendFile(fileName, content, (err) => {
+        if (err) {
+          console.error(chalk.red(`Error writing to log file: ${err.message}`));
+        } else {
+          console.log(chalk.green(`Log entry added to ${fileName}`));
+        }
+      });
+    }
+    }
   next();
 };
+
