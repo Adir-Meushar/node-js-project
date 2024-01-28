@@ -8,15 +8,32 @@ This Node.js project is designed to streamline user and business card management
 #### User Management:
 User registration, login, profile editing, and deletion.
 Role-based access with admin privileges for additional actions.
+
 #### Card Management:
 Business users can create, edit, and delete their business cards.
 Users can like or unlike business cards.
+
 #### Custom Error Handling:
 Custom 404 error page for a user-friendly experience on undefined routes.
 Meaningful error messages for various scenarios.
+
 #### Frontend Integration:
 Static files, including an HTML error page, are served through Express for enhanced styling.
+
 #### Security Measures:
 Passwords are securely hashed using bcrypt.
 JSON Web Tokens (JWT) for secure user authentication.
 Middleware ensures proper access controls and permissions.
+
+## Overall Architecture
+The project follows a modular structure, with organized routes, middleware, models, and validation using Joi.
+MongoDB serves as the data store, ensuring efficient and scalable data management. 
+JSON Web Tokens (JWT) provide a secure authentication mechanism.
+
+## Technologies Used
+Node.js
+Express.js
+MongoDB
+JSON Web Tokens (JWT)
+Bcrypt
+Joi
