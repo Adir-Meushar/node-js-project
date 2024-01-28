@@ -11,12 +11,12 @@ Role-based access with admin privileges for additional actions.
 ### Card Management:
 Business users can create, edit, and delete their business cards.
 Users can like or unlike business cards.
-**Custom Error Handling**:
+### Custom Error Handling:
 Custom 404 error page for a user-friendly experience on undefined routes.
 Meaningful error messages for various scenarios.
-**Frontend Integration**:
+### Frontend Integration:
 Static files, including an HTML error page, are served through Express for enhanced styling.
-**Security Measures**:
+### Security Measures:
 Passwords are securely hashed using bcrypt.
 JSON Web Tokens (JWT) for secure user authentication.
 Middleware ensures proper access controls and permissions.
