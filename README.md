@@ -31,9 +31,9 @@ MongoDB serves as the data store, ensuring efficient and scalable data managemen
 JSON Web Tokens (JWT) provide a secure authentication mechanism.
 
 ## Technologies Used
-Node.js
-Express.js
-MongoDB
-JSON Web Tokens (JWT)
-Bcrypt
-Joi
++ Node.js
++ Express.js
++ MongoDB
++ JSON Web Tokens (JWT)
++ Bcrypt
++ Joi
