@@ -8,7 +8,7 @@ This Node.js project is designed to streamline user and business card management
 ### User Management:
 User registration, login, profile editing, and deletion.
 Role-based access with admin privileges for additional actions.
-**Card Management**:
+### Card Management:
 Business users can create, edit, and delete their business cards.
 Users can like or unlike business cards.
 **Custom Error Handling**:
