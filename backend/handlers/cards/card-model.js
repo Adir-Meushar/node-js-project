@@ -6,10 +6,10 @@ const addressSchema = new mongoose.Schema({
     country: { type: String, required: true },
     city: String,
     street: String,
-    houseNumber: String,
+    houseNumber: Number,
     zip:{type:Number,required:true},
   });
-  
+   
   const imgSchema = new mongoose.Schema({
     url: String,
     alt: String
@@ -24,11 +24,11 @@ email:{type:String,required:true},
 web:{type:String,required:true},
 img:imgSchema,
 address:addressSchema,
-bizNumber:{type:Number,default:()=>Math.floor(Math.random() * (9999 - 1000 + 1)) + 1000}, 
+bizNumber: {type:Number,default: () => Math.floor(Math.random() * 9000000) + 1000000},
 likes:{type:Array},
 user_id: {
   type: mongoose.Schema.Types.ObjectId,
-  required: true,
+  required: true, 
 },
 createdTime: { type: String, default: () => moment().format('D-M-Y HH:mm:ss') }
 });

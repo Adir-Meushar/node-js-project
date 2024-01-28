@@ -1,7 +1,7 @@
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const { User } = require('../user/user-model');
-const loginSchema = require('../user/user-joiValid');
+const {loginSchema} = require('../user/user-joiValid');
 
 module.exports = app => {
   app.post('/users/login', async (req, res) => {
@@ -11,7 +11,7 @@ module.exports = app => {
       return res.status(400).send(error.details[0].message);
     }
 
-    const { email, password } = value;
+    const { email, password } = value; 
     const user = await User.findOne({ email });
 
     if (!user) {
@@ -31,7 +31,7 @@ module.exports = app => {
       blockedUsers[user.email].loginAttempts += 1;
 
       if (blockedUsers[user.email].loginAttempts >= 3) {
-        blockedUsers[user.email].blockExpires = Date.now() + 3600000; // Block for 1 hour
+        blockedUsers[user.email].blockExpires = Date.now() + 24 * 3600000; 
         return res.status(401).send('Account is blocked. Try again later.');
       }
 

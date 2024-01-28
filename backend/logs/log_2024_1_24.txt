@@ -1,0 +1,147 @@
+Time: 1/24/2024, 10:42:58 AM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 77ms
+Error Msg: Unauthorized
+
+Time: 1/24/2024, 11:23:48 AM
+Method: POST
+Route: /users/login.%D7%A9%D7%93%D7%92%D7%A9%D7%93%D7%92
+Status: 404
+Duration: 2ms
+Error Msg: Not Found
+
+Time: 1/24/2024, 11:23:57 AM
+Method: POST
+Route: /users/loginaa
+Status: 404
+Duration: 2ms
+Error Msg: Not Found
+
+Time: 1/24/2024, 3:01:09 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 117ms
+Error Msg: Unauthorized
+
+Time: 1/24/2024, 3:04:50 PM
+Method: PATCH
+Route: /cards/bizNumber/65b0cd0eb519d451edb66efc
+Status: 400
+Duration: 47ms
+Error Msg: Bad Request
+
+Time: 1/24/2024, 3:05:01 PM
+Method: PATCH
+Route: /cards/bizNumber/65b0cd0eb519d451edb66efc
+Status: 500
+Duration: 38ms
+Error Msg: Internal Server Error
+
+Time: 1/24/2024, 3:14:06 PM
+Method: PATCH
+Route: /cards/bizNumber/65b0cd0eb519d451edb66efc
+Status: 500
+Duration: 28ms
+Error Msg: Internal Server Error
+
+Time: 1/24/2024, 3:14:09 PM
+Method: PATCH
+Route: /cards/bizNumber/65b0cd0eb519d451edb66efc
+Status: 500
+Duration: 11ms
+Error Msg: Internal Server Error
+
+Time: 1/24/2024, 3:16:14 PM
+Method: PATCH
+Route: /cards/bizNumber/65b0cd0eb519d451edb66efc
+Status: 400
+Duration: 33ms
+Error Msg: Bad Request
+
+Time: 1/24/2024, 3:17:45 PM
+Method: PATCH
+Route: /cards/bizNumber/65b0cd0eb519d451edb66efc
+Status: 400
+Duration: 35ms
+Error Msg: Bad Request
+
+Time: 1/24/2024, 3:17:56 PM
+Method: PATCH
+Route: /cards/bizNumber/65b0cd0eb519d451edb66efc
+Status: 400
+Duration: 15ms
+Error Msg: Bad Request
+
+Time: 1/24/2024, 3:18:03 PM
+Method: PATCH
+Route: /cards/bizNumber/65b0cd0eb519d451edb66efc
+Status: 400
+Duration: 9ms
+Error Msg: Bad Request
+
+Time: 1/24/2024, 3:18:05 PM
+Method: PATCH
+Route: /cards/bizNumber/65b0cd0eb519d451edb66efc
+Status: 400
+Duration: 6ms
+Error Msg: Bad Request
+
+Time: 1/24/2024, 5:46:28 PM
+Method: PATCH
+Route: /cards/bizNumber/65b0cd0eb519d451edb66efc
+Status: 401
+Duration: 35ms
+Error Msg: Unauthorized
+
+Time: 1/24/2024, 5:46:41 PM
+Method: PATCH
+Route: /cards/bizNumber/65b0cd0eb519d451edb66efc
+Status: 401
+Duration: 4ms
+Error Msg: Unauthorized
+
+Time: 1/24/2024, 5:47:00 PM
+Method: PATCH
+Route: /cards/bizNumber/65b0cd0eb519d451edb66efc
+Status: 400
+Duration: 9ms
+Error Msg: Bad Request
+
+Time: 1/24/2024, 5:47:03 PM
+Method: PATCH
+Route: /cards/bizNumber/65b0cd0eb519d451edb66efc
+Status: 400
+Duration: 5ms
+Error Msg: Bad Request
+
+Time: 1/24/2024, 5:47:09 PM
+Method: PATCH
+Route: /cards/bizNumber/65b0cd0eb519d451edb66efc
+Status: 400
+Duration: 6ms
+Error Msg: Bad Request
+
+Time: 1/24/2024, 5:48:07 PM
+Method: PATCH
+Route: /cards/bizNumber/65b0cd0eb519d451edb66efc
+Status: 400
+Duration: 39ms
+Error Msg: Bad Request
+
+Time: 1/24/2024, 5:48:16 PM
+Method: PATCH
+Route: /cards/bizNumber/65b0cd0eb519d451edb66efc
+Status: 400
+Duration: 4ms
+Error Msg: Bad Request
+
+Time: 1/24/2024, 5:48:29 PM
+Method: PATCH
+Route: /cards/bizNumber/65b0cd0eb519d451edb66efc
+Status: 400
+Duration: 9ms
+Error Msg: Bad Request
+

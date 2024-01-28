@@ -10,7 +10,7 @@ module.exports = (req, res, next) => {
   const originalEnd = res.end;
 
   // Override res.end to log the status code
-  res.end = function (chunk, encoding) {
+  res.end = (chunk, encoding) => {
     res.end = originalEnd; // Restore the original end function
     res.end(chunk, encoding); // Call the original end function
 

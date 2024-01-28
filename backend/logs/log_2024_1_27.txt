@@ -1,0 +1,1134 @@
+Time: 1/27/2024, 11:44:04 AM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 78ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:00:34 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 32ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:01:22 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 105ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:01:39 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:01:42 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 3ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:01:53 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:02:22 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 28ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:02:25 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:07:30 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 31ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:07:58 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:08:06 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 1ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:11:59 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 45ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:12:24 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 6ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:12:41 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:12:58 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 6ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:13:04 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:13:11 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:14:05 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 75ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:14:11 PM
+Method: POST
+Route: /users/login
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:16:15 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 4ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:19:23 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 32ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:19:34 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 14ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:25:09 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 42ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:26:47 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 3ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:27:27 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 34ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:27:40 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 41ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:29:38 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 7ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:29:43 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 6ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:31:02 PM
+Method: POST
+Route: /users/login
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:31:09 PM
+Method: POST
+Route: /users/login
+Status: 400
+Duration: 1ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:31:13 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 77ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:31:23 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 76ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:31:28 PM
+Method: POST
+Route: /users/login
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:31:43 PM
+Method: POST
+Route: /users/login
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:32:43 PM
+Method: POST
+Route: /users/login
+Status: 400
+Duration: 34ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:32:52 PM
+Method: POST
+Route: /users/login
+Status: 400
+Duration: 3ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:33:09 PM
+Method: POST
+Route: /users/login
+Status: 400
+Duration: 4ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:33:24 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 79ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:33:44 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 79ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:33:53 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 77ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:33:57 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 5ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:33:59 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 5ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:34:00 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 4ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:34:33 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 76ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:34:34 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 77ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:34:35 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 76ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:34:38 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 5ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:37:06 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 5ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:38:05 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 35ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:39:16 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 3ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:39:44 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 70ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:39:46 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 7ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:39:51 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 39ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:39:58 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 4ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:40:07 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 4ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:40:21 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 58ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:40:25 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 3ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:40:26 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 2ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:41:30 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 34ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:42:08 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 38ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:43:10 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 3ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:43:59 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 2ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:45:41 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 42ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:49:05 PM
+Method: GET
+Route: /users/65b4ea65ba162592d1ef1a06
+Status: 401
+Duration: 2ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:49:32 PM
+Method: GET
+Route: /users/65b4ea65ba162592d1ef1a06
+Status: 401
+Duration: 35ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:51:30 PM
+Method: GET
+Route: /users/65afb07597ac2be84c06f828
+Status: 401
+Duration: 3ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:52:39 PM
+Method: GET
+Route: /users/65afb07597ac2be84c06f828
+Status: 403
+Duration: 6ms
+Error Msg: Forbidden
+
+Time: 1/27/2024, 1:53:01 PM
+Method: GET
+Route: /users/65b4ea65ba162592d1ef1a02
+Status: 403
+Duration: 5ms
+Error Msg: Forbidden
+
+Time: 1/27/2024, 1:55:45 PM
+Method: PUT
+Route: /users/65afb07597ac2be84c06f828
+Status: 401
+Duration: 2ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 1:56:30 PM
+Method: PUT
+Route: /users/65b4ea73ba162592d1ef1a19
+Status: 500
+Duration: 3ms
+Error Msg: Internal Server Error
+
+Time: 1/27/2024, 1:57:02 PM
+Method: PUT
+Route: /users/65b4ea73ba162592d1ef1a19
+Status: 500
+Duration: 3ms
+Error Msg: Internal Server Error
+
+Time: 1/27/2024, 1:57:23 PM
+Method: PUT
+Route: /users/65b4ea73ba162592d1ef1a19
+Status: 500
+Duration: 3ms
+Error Msg: Internal Server Error
+
+Time: 1/27/2024, 1:58:29 PM
+Method: PUT
+Route: /users/65b4ea73ba162592d1ef1a19
+Status: 400
+Duration: 9ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:58:46 PM
+Method: PUT
+Route: /users/65b4ea73ba162592d1ef1a19
+Status: 400
+Duration: 4ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 1:59:56 PM
+Method: PUT
+Route: /users/65b4ea73ba162592d1ef1a12
+Status: 401
+Duration: 7ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 2:00:20 PM
+Method: PUT
+Route: /users/65b4ea73ba162592d1ef1a12
+Status: 401
+Duration: 31ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 2:01:24 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 12ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 2:01:42 PM
+Method: PUT
+Route: /users/65b4ea73ba162592d1ef1a19
+Status: 400
+Duration: 6ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 2:02:17 PM
+Method: PUT
+Route: /users/65b4ea73ba162592d1ef1a19
+Status: 401
+Duration: 2ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 2:03:46 PM
+Method: PATCH
+Route: /users/65b4ea73ba162592d1ef1a19
+Status: 401
+Duration: 2ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 2:04:02 PM
+Method: PATCH
+Route: /users/65b4ea73ba162592d1ef1a19
+Status: 401
+Duration: 32ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 2:14:22 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 38ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 2:15:05 PM
+Method: GET
+Route: /users
+Status: 401
+Duration: 36ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 2:15:25 PM
+Method: PATCH
+Route: /users/65b4ea73ba162592d1ef1a19
+Status: 401
+Duration: 3ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 2:15:34 PM
+Method: PATCH
+Route: /users/65b4ea73ba162592d1ef1a19
+Status: 401
+Duration: 2ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 2:21:14 PM
+Method: DELETE
+Route: /users/65b4f099b7d36a32665a2017
+Status: 401
+Duration: 2ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 2:21:35 PM
+Method: DELETE
+Route: /users/65b4f099b7d36a32665a2017
+Status: 401
+Duration: 35ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 2:21:44 PM
+Method: DELETE
+Route: /users/65b4f099b7d36a32665a2017
+Status: 401
+Duration: 3ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 2:23:30 PM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 40ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 2:24:22 PM
+Method: DELETE
+Route: /users/65b4f5c53db6c74a3ba36835
+Status: 500
+Duration: 70ms
+Error Msg: Internal Server Error
+
+Time: 1/27/2024, 2:25:37 PM
+Method: DELETE
+Route: /users/65b4f5c53db6c74a3ba36835
+Status: 500
+Duration: 5ms
+Error Msg: Internal Server Error
+
+Time: 1/27/2024, 2:27:12 PM
+Method: DELETE
+Route: /users/65b4f5c53db6c74a3ba36835
+Status: 404
+Duration: 36ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 2:27:28 PM
+Method: DELETE
+Route: /users/65b4f099b7d36a32665a2017
+Status: 401
+Duration: 3ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 2:27:34 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 8ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 2:39:53 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 4ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 2:42:01 PM
+Method: POST
+Route: /cards
+Status: 401
+Duration: 9ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 2:43:07 PM
+Method: POST
+Route: /cards
+Status: 401
+Duration: 7ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 2:43:25 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 7ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 2:43:29 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 8ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 2:45:01 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 5ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 2:45:17 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 48ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 2:45:48 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 11ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 2:45:59 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 7ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 2:46:18 PM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 6ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 2:48:52 PM
+Method: GET
+Route: /cards/my-cards
+Status: 404
+Duration: 49ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 2:49:28 PM
+Method: GET
+Route: /cards/my-cards
+Status: 404
+Duration: 49ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 2:50:37 PM
+Method: GET
+Route: /cards/my-cards
+Status: 404
+Duration: 15ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 2:51:17 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 6ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 2:51:31 PM
+Method: GET
+Route: /cards/my-cards
+Status: 404
+Duration: 7ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 2:52:19 PM
+Method: GET
+Route: /cards/my-cards
+Status: 404
+Duration: 12ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 2:53:50 PM
+Method: GET
+Route: /cards/my-cards
+Status: 404
+Duration: 51ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 2:54:03 PM
+Method: GET
+Route: /cards/my-cards
+Status: 404
+Duration: 48ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 2:54:05 PM
+Method: GET
+Route: /cards/my-cards
+Status: 404
+Duration: 9ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 2:56:23 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 34ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 2:56:27 PM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 4ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 2:56:53 PM
+Method: GET
+Route: /cards/my-cards
+Status: 401
+Duration: 13ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 2:57:08 PM
+Method: GET
+Route: /cards/my-cards
+Status: 404
+Duration: 8ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 2:57:30 PM
+Method: GET
+Route: /cards/my-cards
+Status: 404
+Duration: 11ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 2:59:09 PM
+Method: GET
+Route: /cards/my-cards
+Status: 404
+Duration: 39ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 2:59:11 PM
+Method: GET
+Route: /cards/my-cards
+Status: 404
+Duration: 6ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 2:59:35 PM
+Method: GET
+Route: /cards/my-cards
+Status: 500
+Duration: 10ms
+Error Msg: Internal Server Error
+
+Time: 1/27/2024, 3:01:06 PM
+Method: GET
+Route: /cards/my-cards
+Status: 404
+Duration: 87ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 3:01:22 PM
+Method: GET
+Route: /cards/my-cards
+Status: 404
+Duration: 51ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 3:01:30 PM
+Method: GET
+Route: /cards/my-cards
+Status: 404
+Duration: 49ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 3:01:42 PM
+Method: GET
+Route: /cards/my-cards
+Status: 404
+Duration: 10ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 3:02:13 PM
+Method: GET
+Route: /cards/my-cards
+Status: 404
+Duration: 48ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 3:02:37 PM
+Method: GET
+Route: /cards/my-cards
+Status: 500
+Duration: 48ms
+Error Msg: Internal Server Error
+
+Time: 1/27/2024, 3:03:47 PM
+Method: GET
+Route: /cards/my-cards
+Status: 404
+Duration: 7ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 3:04:43 PM
+Method: GET
+Route: /cards/my-cards
+Status: 401
+Duration: 3ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:06:23 PM
+Method: GET
+Route: /cards/my-cards
+Status: 401
+Duration: 3ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:08:33 PM
+Method: PUT
+Route: /cards/65afbcf8b198805014d99664
+Status: 401
+Duration: 43ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:09:38 PM
+Method: PUT
+Route: /cards/65b4ffc6e9e9500f3cf86498
+Status: 400
+Duration: 8ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 3:09:47 PM
+Method: PUT
+Route: /cards/65b4fc64170b569a8887cbc6
+Status: 401
+Duration: 6ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:11:51 PM
+Method: PATCH
+Route: /cards/65afbcf8b198805014d99664
+Status: 500
+Duration: 14ms
+Error Msg: Internal Server Error
+
+Time: 1/27/2024, 3:12:11 PM
+Method: PATCH
+Route: /cards/65afbcf8b198805014d99664
+Status: 401
+Duration: 51ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:13:33 PM
+Method: PATCH
+Route: /cards/65b4fc64170b569a8887cbc6
+Status: 401
+Duration: 2ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:14:08 PM
+Method: DELETE
+Route: /cards/65afbccbb198805014d99654
+Status: 401
+Duration: 3ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:14:18 PM
+Method: DELETE
+Route: /cards/65afbccbb198805014d99654
+Status: 404
+Duration: 5ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 3:15:46 PM
+Method: DELETE
+Route: /cards/65afbccbb198805014d99654
+Status: 404
+Duration: 38ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 3:16:22 PM
+Method: DELETE
+Route: /cards/65b4fc64170b569a8887cbbe
+Status: 401
+Duration: 13ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:16:32 PM
+Method: DELETE
+Route: /cards/65b4ffc6e9e9500f3cf86498
+Status: 401
+Duration: 6ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:16:40 PM
+Method: DELETE
+Route: /cards/65b4ffc6e9e9500f3cf86498
+Status: 401
+Duration: 5ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:17:11 PM
+Method: DELETE
+Route: /cards/65b4ffc6e9e9500f3cf86498
+Status: 401
+Duration: 6ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:18:35 PM
+Method: DELETE
+Route: /cards/65b50294cc33a04e3e3a4560
+Status: 401
+Duration: 8ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:19:03 PM
+Method: DELETE
+Route: /cards/65b50294cc33a04e3e3a4560
+Status: 401
+Duration: 44ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:19:10 PM
+Method: DELETE
+Route: /cards/65b50294cc33a04e3e3a4560
+Status: 401
+Duration: 45ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:19:48 PM
+Method: DELETE
+Route: /cards/65b50294cc33a04e3e3a4560
+Status: 401
+Duration: 44ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:19:50 PM
+Method: DELETE
+Route: /cards/65b50294cc33a04e3e3a4560
+Status: 401
+Duration: 6ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:20:37 PM
+Method: DELETE
+Route: /cards/65b4fc64170b569a8887cbbe
+Status: 401
+Duration: 10ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:22:57 PM
+Method: DELETE
+Route: /cards/65b4fc64170b569a8887cbbe
+Status: 401
+Duration: 46ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:23:21 PM
+Method: DELETE
+Route: /cards/65b4fc64170b569a8887cbbe
+Status: 401
+Duration: 45ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:24:41 PM
+Method: DELETE
+Route: /cards/65b4fc64170b569a8887cbbe
+Status: 401
+Duration: 45ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:29:29 PM
+Method: DELETE
+Route: /cards/65b505194f26ebb713ff7a74
+Status: 401
+Duration: 7ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:29:58 PM
+Method: DELETE
+Route: /cards/65b505194f26ebb713ff7a7a
+Status: 404
+Duration: 5ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 3:32:03 PM
+Method: DELETE
+Route: /cards/65b505194f26ebb713ff7a74
+Status: 404
+Duration: 38ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 3:32:28 PM
+Method: DELETE
+Route: /cards/65b504de07c595f3408d6b16
+Status: 401
+Duration: 12ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:33:35 PM
+Method: PATCH
+Route: /cards/bizNumber/65b0cd0eb519d451edb66efc
+Status: 401
+Duration: 3ms
+Error Msg: Unauthorized
+
+Time: 1/27/2024, 3:33:49 PM
+Method: PATCH
+Route: /cards/bizNumber/65b0cd0eb519d451edb66efc
+Status: 400
+Duration: 6ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 3:34:25 PM
+Method: PATCH
+Route: /cards/bizNumber/65b0cd0eb519d451edb66efc
+Status: 400
+Duration: 35ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 3:34:33 PM
+Method: PATCH
+Route: /cards/bizNumber/65b0cd0eb519d451edb66efc
+Status: 404
+Duration: 17ms
+Error Msg: Not Found
+
+Time: 1/27/2024, 3:35:45 PM
+Method: PATCH
+Route: /cards/bizNumber/65b505174f26ebb713ff7a6f
+Status: 400
+Duration: 3ms
+Error Msg: Bad Request
+
+Time: 1/27/2024, 3:35:59 PM
+Method: PATCH
+Route: /cards/bizNumber/65b505174f26ebb713ff7a6f
+Status: 400
+Duration: 7ms
+Error Msg: Bad Request
+

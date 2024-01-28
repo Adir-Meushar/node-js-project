@@ -5,6 +5,7 @@ const mongoose=require('mongoose');
 const chalk=require('chalk'); 
 const loggerMiddleware=require('./logger');
 const port=process.env.PORT;
+
 async function main(){
     await mongoose.connect(process.env.REMOTE_URL)
     console.log(chalk.blue('Connection Established'));
@@ -14,7 +15,7 @@ main().catch(err=>console.log(chalk.red(err)));
 const app=express(); 
  
 app.use(express.json());
-
+ 
 
 app.use(cors({ 
     origin: true,
@@ -40,4 +41,4 @@ require('./initial-data/initialDataService');
 
 app.get("*", (req, res) => {
    res.sendFile(`${__dirname}/public/index.html`);
-});
+}); 

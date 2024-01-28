@@ -16,20 +16,24 @@ const userValidationSchema = Joi.object({
       'any.required': 'Last name is required',
     }),
   }),
-  phone: Joi.string().pattern(/^[0-9]{10,15}$/).required().messages({
-    'string.pattern.base': 'Phone number must be numeric and between 10 to 15 digits',
+  phone: Joi.string().pattern(/^[0-9]{9,13}$/).required().messages({
+    'string.pattern.base': 'Phone number must be numeric and between 9 to 13 digits',
     'any.required': 'Phone number is required',
   }),
   email: Joi.string().email().required().messages({
     'string.email': 'Invalid email format',
     'any.required': 'Email is required',
   }),
-  password: Joi.string().required().pattern(/^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@%$#^&*\-_*]).{8,32}$/).messages({
+  password: Joi.string()
+  .required().min(8).max(32).pattern(/^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@%$#^&*\-_*])/)
+  .messages({
     'string.pattern.base': 'Password must contain at least one digit, one lowercase and one uppercase letter, and one special character',
     'any.required': 'Password is required',
+    'string.min': 'Password must be at least {#limit} characters long',
+    'string.max': 'Password must not exceed {#limit} characters',
   }),
   address: Joi.object({
-    state: Joi.string().allow(''),
+    state: Joi.string().min(2).max(100).allow(''),
     country: Joi.string().min(2).max(100).messages({
       'string.min': 'Country must be at least {#limit} characters long',
       'string.max': 'Country must not exceed {#limit} characters',
@@ -49,10 +53,12 @@ const userValidationSchema = Joi.object({
     url: Joi.string(),
     alt: Joi.string(),
   }),
-  isBusiness: Joi.boolean().default(false),
-  isAdmin: Joi.boolean().default(false),
+  isBusiness: Joi.boolean().required().messages({
+    'any.required': 'Business status is required',
+  }),
+  isAdmin: Joi.boolean(),
 });
-
+ 
 const loginSchema = Joi.object({
   email: Joi.string().email().required().messages({
     'string.email': 'Invalid email format',
@@ -64,5 +70,7 @@ const loginSchema = Joi.object({
   }),
 });
 
-module.exports = userValidationSchema;
-module.exports = loginSchema;
+module.exports = {
+  userValidationSchema,
+  loginSchema,
+};

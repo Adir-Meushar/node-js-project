@@ -13,7 +13,7 @@ const addressSchema = new mongoose.Schema({
   country: { type: String, required: true },
   city: String, 
   street: String,
-  houseNumber: String,
+  houseNumber: Number, 
   zip: { type: Number, default: 0 },
 });
 
@@ -29,7 +29,7 @@ const userSchema = new mongoose.Schema({
   password: { type: String, required: true },
   address: addressSchema,
   img: imgSchema,
-  isBusiness: { type: Boolean, default: false },
+  isBusiness: { type: Boolean, required: true},
   isAdmin: { type: Boolean, default: false },
   createdTime: { type: String, default: () => moment().format('D-M-Y HH:mm:ss') }
 });

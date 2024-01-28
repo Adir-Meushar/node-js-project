@@ -1,0 +1,385 @@
+Time: 1/28/2024, 9:39:46 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 10ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 9:57:15 AM
+Method: DELETE
+Route: /users/65b604d61764e33c6764ea09
+Status: 401
+Duration: 4ms
+Error Msg: Unauthorized
+
+Time: 1/28/2024, 9:59:15 AM
+Method: DELETE
+Route: /users/65b608ca843eaa7f746152d8
+Status: 403
+Duration: 36ms
+Error Msg: Forbidden
+
+Time: 1/28/2024, 9:59:49 AM
+Method: DELETE
+Route: /users/65b6095abcd68b119278c01d
+Status: 403
+Duration: 10ms
+Error Msg: Forbidden
+
+Time: 1/28/2024, 10:03:53 AM
+Method: POST
+Route: /cards
+Status: 401
+Duration: 2ms
+Error Msg: Unauthorized
+
+Time: 1/28/2024, 10:03:58 AM
+Method: POST
+Route: /users/login
+Status: 401
+Duration: 4ms
+Error Msg: Unauthorized
+
+Time: 1/28/2024, 10:08:58 AM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 7ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:09:14 AM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 6ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:13:01 AM
+Method: DELETE
+Route: /cards/65b60badbcd68b119278c037
+Status: 404
+Duration: 7ms
+Error Msg: Not Found
+
+Time: 1/28/2024, 10:15:26 AM
+Method: PUT
+Route: /cards/65b4fc64170b569a8887cbc6
+Status: 401
+Duration: 3ms
+Error Msg: Unauthorized
+
+Time: 1/28/2024, 10:42:04 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 40ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:42:08 AM
+Method: POST
+Route: /users/
+Status: 500
+Duration: 22ms
+Error Msg: Internal Server Error
+
+Time: 1/28/2024, 10:44:43 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 41ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:44:51 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 4ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:45:19 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:45:29 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 5ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:51:24 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:51:53 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 42ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:52:14 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 3ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:52:24 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:52:30 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:52:45 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 6ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:56:38 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 42ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:56:42 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 6ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:56:46 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 5ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:56:49 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:58:16 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:58:19 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:59:02 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 38ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:59:05 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 3ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:59:09 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:59:16 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 13ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:59:23 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 3ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 10:59:48 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 11:00:29 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 11:00:37 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 5ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 11:01:17 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 44ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 11:01:22 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 4ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 11:02:39 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 32ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 11:02:44 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 13ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 11:02:50 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 11:02:58 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 3ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 11:03:03 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 7ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 11:03:17 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 11:04:54 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 41ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 11:05:07 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 4ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 11:05:13 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 5ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 11:08:10 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 2ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 11:08:36 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 5ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 11:09:06 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 1ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 11:09:11 AM
+Method: POST
+Route: /users/
+Status: 400
+Duration: 5ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 11:51:43 AM
+Method: POST
+Route: /cards
+Status: 401
+Duration: 32ms
+Error Msg: Unauthorized
+
+Time: 1/28/2024, 11:51:49 AM
+Method: POST
+Route: /cards
+Status: 401
+Duration: 2ms
+Error Msg: Unauthorized
+
+Time: 1/28/2024, 11:52:26 AM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 13ms
+Error Msg: Bad Request
+
+Time: 1/28/2024, 11:52:38 AM
+Method: POST
+Route: /cards
+Status: 400
+Duration: 6ms
+Error Msg: Bad Request
+

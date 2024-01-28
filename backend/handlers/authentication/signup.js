@@ -1,5 +1,5 @@
+const { userValidationSchema } = require('../user/user-joiValid');
 const { User } = require('../user/user-model');
-const userValidationSchema = require('../user/user-joiValid');
 
 module.exports = app => {
   app.post('/users', async (req, res) => {

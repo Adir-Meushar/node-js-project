@@ -1,17 +1,22 @@
 const { getUserInfo } = require("../../config");
 const guard = require("../../guard");
-const userValidationSchema = require("./user-joiValid");
+const {userValidationSchema} = require("./user-joiValid");
 const { User } = require("./user-model");
 const jwt=require('jsonwebtoken');
 
 module.exports = (app) => {
     //Get all users-Admin//
     app.get('/users', guard, async (req, res) => {
-      const userToken = getUserInfo(req, res); //get details from token//
+      const userToken = getUserInfo(req, res); 
       if (!userToken.isAdmin) {
-          return res.status(401).send('User is not authorized');
+        return res.status(401).send({
+          error: {
+            code: 401,
+            message: 'Unauthorized',
+            details: 'User authentication failed.',
+          },
+        });
       }
-
       const users = await User.find();
       res.send(users);
   });
@@ -21,13 +26,19 @@ module.exports = (app) => {
         const userToken=getUserInfo(req,res);
       
         if(userToken.userId!==req.params.id&&!userToken.isAdmin){
-            return res.status(401).send('User not authorized');
+          return res.status(401).send({
+            error: {
+              code: 401,
+              message: 'Unauthorized',
+              details: 'User authentication failed.',
+            },
+          });
         }
         try{
             const currentUser=await User.findById(req.params.id).select('-password');
             if(!currentUser){
                 return res.status(403).send('User not found');
-            }
+            } 
             res.send(currentUser);
         }
         catch(err){
@@ -58,21 +69,39 @@ module.exports = (app) => {
       app.delete('/users/:id',guard,async(req,res)=>{
         const userToken=getUserInfo(req,res);
         if(userToken.userId!==req.params.id&&!userToken.isAdmin){
-            return res.status(401).send('User is not authorized');
-        }
+          return res.status(401).send({
+            error: {
+              code: 401,
+              message: 'Unauthorized',
+              details: 'User authentication failed.',
+            },
+          });
+        } 
         try{ 
             const currentUser=await User.findByIdAndDelete(req.params.id);
-            res.status(200).send('User deleted sucssesfully!');
+            if(!currentUser){
+              return res.status(403).send('User not found');
+            }
+            res.status(200).send({
+              message:`User was deleted sucssesfully!`,
+              deletedUser:currentUser,
+            });
         }catch(err){
-            return res.status(500).send('Somthing went wrong please reload the page');
+            return res.status(404).send('User not found');
         }
       })
 
      //User-Edit-current user//
-     app.put('/users/:id', guard, async (req, res) => {
+     app.put('/users/:id', guard, async (req, res) => { 
       const userToken = getUserInfo(req, res);
       if (userToken.userId !== req.params.id) {
-        return res.status(401).send('User is not authorized');
+        return res.status(401).send({
+          error: {
+            code: 401,
+            message: 'Unauthorized',
+            details: 'User authentication failed.',
+          },
+        });
       }
       
       try {

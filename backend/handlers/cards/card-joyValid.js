@@ -1,19 +1,23 @@
 const Joi = require('joi');
 
 const cardValidationSchema = Joi.object({
-    title: Joi.string().min(2).required().messages({
+    title: Joi.string().min(2).max(30).required().messages({
       'string.min': 'Title must be at least {#limit} characters long',
+      'string.max': 'Title must not exceed {#limit} characters',
       'any.required': 'Title is required',
     }),
-    subtitle: Joi.string().required().messages({
+    subtitle: Joi.string().min(2).max(30).required().messages({
+      'string.min': 'Subtitle must be at least {#limit} characters long',
+      'string.max': 'Subtitle must not exceed {#limit} characters',
       'string.empty': 'Subtitle must not be empty',
     }),
-    description: Joi.string().min(2).required().messages({
+    description: Joi.string().min(2).max(150).required().messages({
       'string.min': 'Description must be at least {#limit} characters long',
+      'string.max': 'Description must not exceed {#limit} characters',
       'any.required': 'Description is required',
     }),
-  phone: Joi.string().pattern(/^[0-9]{10,15}$/).required().messages({
-    'string.pattern.base': 'Phone number must be numeric and between 10 to 15 digits',
+  phone: Joi.string().pattern(/^[0-9]{9,13}$/).required().messages({
+    'string.pattern.base': 'Phone number must be numeric and between 9 to 13 digits',
     'any.required': 'Phone number is required',
   }),
   email: Joi.string().email().required().messages({
@@ -25,7 +29,7 @@ const cardValidationSchema = Joi.object({
     'any.required': 'Website is required',
   }),
   address: Joi.object({
-    state: Joi.string().allow(''),
+    state: Joi.string().min(2).max(100).allow(''),
     country: Joi.string().min(2).max(100).messages({
         'string.min': 'Country must be at least {#limit} characters long',
         'string.max': 'Country must not exceed {#limit} characters',
@@ -42,10 +46,10 @@ const cardValidationSchema = Joi.object({
     zip: Joi.number().positive(),
   }),
   img: Joi.object({
-    url: Joi.string(),
+    url: Joi.string(), 
     alt: Joi.string(),
   }),
-  bizNumber: Joi.number(),
+  bizNumber: Joi.number().integer(),
 });
 
 module.exports = cardValidationSchema;
